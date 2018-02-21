@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text=" تقييم مهارات القراءة في المرحلة الابتدائية"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textSize="24sp"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:text="التعرف على أصوات الحروف"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/letters"
+        android:textSize="20sp"/>
+
+    <Button
+        android:text=" كلمات غير مألوفة "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="فهم المسموع"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:textSize="20sp"/>
+
+    <Button
+        android:text=" قراءة مقطع شفوي"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:textSize="20sp" />
+
+</LinearLayout>
